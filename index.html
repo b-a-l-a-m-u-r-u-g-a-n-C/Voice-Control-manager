@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Controlled Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Voice Task Manager</h1>
+            <button id="micButton" class="mic-button">🎤 Click to Speak</button>
+            <p id="status">Status: Ready</p>
+        </header>
+
+        <main>
+            <ul id="taskList" class="task-list">
+                <!-- Tasks will be dynamically inserted here by JavaScript -->
+            </ul>
+        </main>
+
+        <footer>
+            <p>Try saying: <em>"Add buy groceries"</em> or <em>"Complete task 1"</em></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
